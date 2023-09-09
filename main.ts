@@ -5,6 +5,7 @@ input.onButtonPressed(Button.A, function () {
     serial.writeValue("標準偏差", custom.calculateStandardDeviation(配列))
 })
 let 配列: number[] = []
+serial.writeLine("program start")
 配列 = [
 1,
 2,
